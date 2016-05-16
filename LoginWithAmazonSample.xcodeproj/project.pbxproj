@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6939AB1B1CD6D49900B49B0F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6939AB1A1CD6D49900B49B0F /* Security.framework */; };
+		6939AB1D1CD6D4A200B49B0F /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6939AB1C1CD6D4A200B49B0F /* SafariServices.framework */; };
+		6939AB1F1CD6D4AB00B49B0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6939AB1E1CD6D4AB00B49B0F /* CoreGraphics.framework */; };
+		6939AB211CD6D52C00B49B0F /* LoginWithAmazon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6939AB201CD6D52C00B49B0F /* LoginWithAmazon.framework */; };
+		695F7B741CE7A81700252CFA /* AMZNLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695F7B731CE7A81700252CFA /* AMZNLoginViewController.swift */; };
+		696FEF821CE969EE004766F5 /* btnLWA_gold_157x36@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 696FEF751CE969EE004766F5 /* btnLWA_gold_157x36@2x.png */; };
+		696FEF831CE969EE004766F5 /* btnLWA_gold_157x36_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 696FEF761CE969EE004766F5 /* btnLWA_gold_157x36_pressed@2x.png */; };
+		696FEF841CE969EE004766F5 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 696FEF771CE969EE004766F5 /* Icon-40.png */; };
+		696FEF851CE969EE004766F5 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 696FEF781CE969EE004766F5 /* Icon-40@2x.png */; };
+		696FEF861CE969EE004766F5 /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 696FEF791CE969EE004766F5 /* Icon-40@3x.png */; };
+		696FEF871CE969EE004766F5 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 696FEF7A1CE969EE004766F5 /* Icon-60@2x.png */; };
+		696FEF881CE969EE004766F5 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 696FEF7B1CE969EE004766F5 /* Icon-60@3x.png */; };
+		696FEF891CE969EE004766F5 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 696FEF7C1CE969EE004766F5 /* Icon-76.png */; };
+		696FEF8A1CE969EE004766F5 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 696FEF7D1CE969EE004766F5 /* Icon-76@2x.png */; };
+		696FEF8B1CE969EE004766F5 /* Icon-83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 696FEF7E1CE969EE004766F5 /* Icon-83.5@2x.png */; };
+		696FEF8C1CE969EE004766F5 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 696FEF7F1CE969EE004766F5 /* Icon-Small.png */; };
+		696FEF8D1CE969EE004766F5 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 696FEF801CE969EE004766F5 /* Icon-Small@2x.png */; };
+		696FEF8E1CE969EE004766F5 /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 696FEF811CE969EE004766F5 /* Icon-Small@3x.png */; };
+		69C5DB3A1CD6D24E005DE6D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C5DB391CD6D24E005DE6D9 /* AppDelegate.swift */; };
+		69C5DB3F1CD6D24F005DE6D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69C5DB3D1CD6D24F005DE6D9 /* Main.storyboard */; };
+		69C5DB411CD6D24F005DE6D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69C5DB401CD6D24F005DE6D9 /* Assets.xcassets */; };
+		69C5DB441CD6D24F005DE6D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69C5DB421CD6D24F005DE6D9 /* LaunchScreen.storyboard */; };
+		69F49F941CE7AC6200E0C362 /* AMZNAuthorizeUserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F49F931CE7AC6200E0C362 /* AMZNAuthorizeUserDelegate.swift */; };
+		69F49F961CE7B0D600E0C362 /* AMZNGetProfileDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F49F951CE7B0D600E0C362 /* AMZNGetProfileDelegate.swift */; };
+		69F49F981CE7C02700E0C362 /* AMZNGetAccessTokenDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F49F971CE7C02700E0C362 /* AMZNGetAccessTokenDelegate.swift */; };
+		69F49F9A1CE7C59700E0C362 /* AMZNLogoutDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F49F991CE7C59700E0C362 /* AMZNLogoutDelegate.swift */; };
+		69F49FA11CE94A3B00E0C362 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F49FA01CE94A3B00E0C362 /* Alert.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6939AB1A1CD6D49900B49B0F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6939AB1C1CD6D4A200B49B0F /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		6939AB1E1CD6D4AB00B49B0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6939AB201CD6D52C00B49B0F /* LoginWithAmazon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LoginWithAmazon.framework; sourceTree = "<group>"; };
+		695F7B731CE7A81700252CFA /* AMZNLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMZNLoginViewController.swift; sourceTree = "<group>"; };
+		695F7B751CE7A9B100252CFA /* LoginWithAmazonBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LoginWithAmazonBridgingHeader.h; path = ../LoginWithAmazonBridgingHeader.h; sourceTree = "<group>"; };
+		696FEF751CE969EE004766F5 /* btnLWA_gold_157x36@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnLWA_gold_157x36@2x.png"; sourceTree = "<group>"; };
+		696FEF761CE969EE004766F5 /* btnLWA_gold_157x36_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnLWA_gold_157x36_pressed@2x.png"; sourceTree = "<group>"; };
+		696FEF771CE969EE004766F5 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		696FEF781CE969EE004766F5 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		696FEF791CE969EE004766F5 /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@3x.png"; sourceTree = "<group>"; };
+		696FEF7A1CE969EE004766F5 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		696FEF7B1CE969EE004766F5 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		696FEF7C1CE969EE004766F5 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		696FEF7D1CE969EE004766F5 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		696FEF7E1CE969EE004766F5 /* Icon-83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-83.5@2x.png"; sourceTree = "<group>"; };
+		696FEF7F1CE969EE004766F5 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		696FEF801CE969EE004766F5 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		696FEF811CE969EE004766F5 /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		69C5DB361CD6D24E005DE6D9 /* LoginWithAmazonSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginWithAmazonSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C5DB391CD6D24E005DE6D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69C5DB3E1CD6D24F005DE6D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69C5DB401CD6D24F005DE6D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69C5DB431CD6D24F005DE6D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69C5DB451CD6D24F005DE6D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69F49F931CE7AC6200E0C362 /* AMZNAuthorizeUserDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMZNAuthorizeUserDelegate.swift; sourceTree = "<group>"; };
+		69F49F951CE7B0D600E0C362 /* AMZNGetProfileDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMZNGetProfileDelegate.swift; sourceTree = "<group>"; };
+		69F49F971CE7C02700E0C362 /* AMZNGetAccessTokenDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMZNGetAccessTokenDelegate.swift; sourceTree = "<group>"; };
+		69F49F991CE7C59700E0C362 /* AMZNLogoutDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMZNLogoutDelegate.swift; sourceTree = "<group>"; };
+		69F49FA01CE94A3B00E0C362 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69C5DB331CD6D24E005DE6D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6939AB211CD6D52C00B49B0F /* LoginWithAmazon.framework in Frameworks */,
+				6939AB1F1CD6D4AB00B49B0F /* CoreGraphics.framework in Frameworks */,
+				6939AB1D1CD6D4A200B49B0F /* SafariServices.framework in Frameworks */,
+				6939AB1B1CD6D49900B49B0F /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6939AB221CD6D53500B49B0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6939AB201CD6D52C00B49B0F /* LoginWithAmazon.framework */,
+				6939AB1E1CD6D4AB00B49B0F /* CoreGraphics.framework */,
+				6939AB1C1CD6D4A200B49B0F /* SafariServices.framework */,
+				6939AB1A1CD6D49900B49B0F /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		696FEF741CE969EE004766F5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				696FEF751CE969EE004766F5 /* btnLWA_gold_157x36@2x.png */,
+				696FEF761CE969EE004766F5 /* btnLWA_gold_157x36_pressed@2x.png */,
+				696FEF771CE969EE004766F5 /* Icon-40.png */,
+				696FEF781CE969EE004766F5 /* Icon-40@2x.png */,
+				696FEF791CE969EE004766F5 /* Icon-40@3x.png */,
+				696FEF7A1CE969EE004766F5 /* Icon-60@2x.png */,
+				696FEF7B1CE969EE004766F5 /* Icon-60@3x.png */,
+				696FEF7C1CE969EE004766F5 /* Icon-76.png */,
+				696FEF7D1CE969EE004766F5 /* Icon-76@2x.png */,
+				696FEF7E1CE969EE004766F5 /* Icon-83.5@2x.png */,
+				696FEF7F1CE969EE004766F5 /* Icon-Small.png */,
+				696FEF801CE969EE004766F5 /* Icon-Small@2x.png */,
+				696FEF811CE969EE004766F5 /* Icon-Small@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		69C5DB2D1CD6D24E005DE6D9 = {
+			isa = PBXGroup;
+			children = (
+				69C5DB381CD6D24E005DE6D9 /* LoginWithAmazonSample */,
+				6939AB221CD6D53500B49B0F /* Frameworks */,
+				696FEF741CE969EE004766F5 /* Resources */,
+				69C5DB371CD6D24E005DE6D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69C5DB371CD6D24E005DE6D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69C5DB361CD6D24E005DE6D9 /* LoginWithAmazonSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69C5DB381CD6D24E005DE6D9 /* LoginWithAmazonSample */ = {
+			isa = PBXGroup;
+			children = (
+				695F7B751CE7A9B100252CFA /* LoginWithAmazonBridgingHeader.h */,
+				69C5DB391CD6D24E005DE6D9 /* AppDelegate.swift */,
+				695F7B731CE7A81700252CFA /* AMZNLoginViewController.swift */,
+				69F49F931CE7AC6200E0C362 /* AMZNAuthorizeUserDelegate.swift */,
+				69F49F951CE7B0D600E0C362 /* AMZNGetProfileDelegate.swift */,
+				69F49F971CE7C02700E0C362 /* AMZNGetAccessTokenDelegate.swift */,
+				69F49F991CE7C59700E0C362 /* AMZNLogoutDelegate.swift */,
+				69F49FA01CE94A3B00E0C362 /* Alert.swift */,
+				69C5DB3D1CD6D24F005DE6D9 /* Main.storyboard */,
+				69C5DB401CD6D24F005DE6D9 /* Assets.xcassets */,
+				69C5DB421CD6D24F005DE6D9 /* LaunchScreen.storyboard */,
+				69C5DB451CD6D24F005DE6D9 /* Info.plist */,
+			);
+			path = LoginWithAmazonSample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69C5DB351CD6D24E005DE6D9 /* LoginWithAmazonSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69C5DB481CD6D24F005DE6D9 /* Build configuration list for PBXNativeTarget "LoginWithAmazonSample" */;
+			buildPhases = (
+				69C5DB321CD6D24E005DE6D9 /* Sources */,
+				69C5DB331CD6D24E005DE6D9 /* Frameworks */,
+				69C5DB341CD6D24E005DE6D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginWithAmazonSample;
+			productName = AVS;
+			productReference = 69C5DB361CD6D24E005DE6D9 /* LoginWithAmazonSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69C5DB2E1CD6D24E005DE6D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = dereknetto;
+				TargetAttributes = {
+					69C5DB351CD6D24E005DE6D9 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = D89RJC2KAA;
+					};
+				};
+			};
+			buildConfigurationList = 69C5DB311CD6D24E005DE6D9 /* Build configuration list for PBXProject "LoginWithAmazonSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69C5DB2D1CD6D24E005DE6D9;
+			productRefGroup = 69C5DB371CD6D24E005DE6D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69C5DB351CD6D24E005DE6D9 /* LoginWithAmazonSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69C5DB341CD6D24E005DE6D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696FEF821CE969EE004766F5 /* btnLWA_gold_157x36@2x.png in Resources */,
+				69C5DB441CD6D24F005DE6D9 /* LaunchScreen.storyboard in Resources */,
+				696FEF841CE969EE004766F5 /* Icon-40.png in Resources */,
+				696FEF8D1CE969EE004766F5 /* Icon-Small@2x.png in Resources */,
+				69C5DB411CD6D24F005DE6D9 /* Assets.xcassets in Resources */,
+				696FEF851CE969EE004766F5 /* Icon-40@2x.png in Resources */,
+				696FEF871CE969EE004766F5 /* Icon-60@2x.png in Resources */,
+				696FEF891CE969EE004766F5 /* Icon-76.png in Resources */,
+				696FEF881CE969EE004766F5 /* Icon-60@3x.png in Resources */,
+				696FEF8C1CE969EE004766F5 /* Icon-Small.png in Resources */,
+				696FEF831CE969EE004766F5 /* btnLWA_gold_157x36_pressed@2x.png in Resources */,
+				696FEF861CE969EE004766F5 /* Icon-40@3x.png in Resources */,
+				696FEF8A1CE969EE004766F5 /* Icon-76@2x.png in Resources */,
+				696FEF8B1CE969EE004766F5 /* Icon-83.5@2x.png in Resources */,
+				696FEF8E1CE969EE004766F5 /* Icon-Small@3x.png in Resources */,
+				69C5DB3F1CD6D24F005DE6D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69C5DB321CD6D24E005DE6D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F49F9A1CE7C59700E0C362 /* AMZNLogoutDelegate.swift in Sources */,
+				695F7B741CE7A81700252CFA /* AMZNLoginViewController.swift in Sources */,
+				69F49F961CE7B0D600E0C362 /* AMZNGetProfileDelegate.swift in Sources */,
+				69F49F941CE7AC6200E0C362 /* AMZNAuthorizeUserDelegate.swift in Sources */,
+				69C5DB3A1CD6D24E005DE6D9 /* AppDelegate.swift in Sources */,
+				69F49F981CE7C02700E0C362 /* AMZNGetAccessTokenDelegate.swift in Sources */,
+				69F49FA11CE94A3B00E0C362 /* Alert.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		69C5DB3D1CD6D24F005DE6D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69C5DB3E1CD6D24F005DE6D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69C5DB421CD6D24F005DE6D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69C5DB431CD6D24F005DE6D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69C5DB461CD6D24F005DE6D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69C5DB471CD6D24F005DE6D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69C5DB491CD6D24F005DE6D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = LoginWithAmazonSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.c4q.Derek316x.LWA;
+				PRODUCT_NAME = LoginWithAmazonSample;
+				PROVISIONING_PROFILE = "";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = LoginWithAmazonBridgingHeader.h;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		69C5DB4A1CD6D24F005DE6D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = LoginWithAmazonSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.c4q.Derek316x.LWA;
+				PRODUCT_NAME = LoginWithAmazonSample;
+				PROVISIONING_PROFILE = "";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = LoginWithAmazonBridgingHeader.h;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69C5DB311CD6D24E005DE6D9 /* Build configuration list for PBXProject "LoginWithAmazonSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C5DB461CD6D24F005DE6D9 /* Debug */,
+				69C5DB471CD6D24F005DE6D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69C5DB481CD6D24F005DE6D9 /* Build configuration list for PBXNativeTarget "LoginWithAmazonSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C5DB491CD6D24F005DE6D9 /* Debug */,
+				69C5DB4A1CD6D24F005DE6D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69C5DB2E1CD6D24E005DE6D9 /* Project object */;
+}
